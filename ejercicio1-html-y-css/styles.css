@@ -1,0 +1,47 @@
+.form {
+    width: 300px;
+    padding:20px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #bd09b7, #6b4cf5);
+    margin: 0 auto; 
+    box-shadow: 5px 5px 5px #aaaaaa;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+}
+
+@media (max-width: 500px){
+   .form{
+       width: 100%;
+   }
+}
+
+@media (min-width: 500px){
+    .form{
+        width: 300px;
+    }
+ }
+
+h1 {
+    margin-block-start: 0em;
+}
+.form input[type="email"], input[type="password"], select[id="gender"]{
+    padding:7px;
+    width:100%;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+.form input[type="submit"] {
+    color: black;
+    padding: 5px 15px;
+    margin-top: 20px;
+    text-align: right;
+
+}
+    
+.move {
+    text-align: right;
+}
+    
